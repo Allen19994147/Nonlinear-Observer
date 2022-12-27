@@ -1,8 +1,8 @@
 # Nonlinear-Observer
 
-The tasks are to design an nonlinear observer by using contraction analysis.
-Assumming x is measurable and use it to estimate x_dot, called x_hat_dot.
+The tasks are to design nonlinear observers by using contraction analysis to estimate velocity of a nonlinear system.
 
-And it accurately estimates x_dotand design a control, u, based on x and x_hat_dot
-to stablize the system.
+In this task, the measurable position is assumed to be x,and it's used to estimate velocity,x_dot, called x_hat_dot.
+
+The result shows that it accurately estimates velocity and a controller design based on the measureable position and estimated velocity is able to stablize the system.
  
